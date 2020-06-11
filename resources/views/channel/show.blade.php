@@ -10,6 +10,6 @@
 
         </div>
 
-</x-formonly-wrapper>>
+</x-formonly-wrapper>
 
 @endsection

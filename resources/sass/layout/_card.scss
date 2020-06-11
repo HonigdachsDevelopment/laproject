@@ -1,8 +1,8 @@
 
 // Cards
 
-$card-spacer-y:                     .75rem !default;
-$card-spacer-x:                     1.25rem !default;
+$card-spacer-y:                     .5rem !default;
+$card-spacer-x:                     1rem !default;
 $card-border-width:                 $border-width !default;
 $card-border-radius:                $border-radius !default;
 $card-border-color:                 var(--bordercolor);
@@ -12,7 +12,7 @@ $card-cap-color:                    var(--accent);
 $card-height:                       null !default;
 
 $card-color:                        var(--fontcolor);
-$card-bg:                           var(--boxlayer-00);
+$card-bg:                           transparentize($boxlayer-lg-01, .3);
 
 $card-img-overlay-padding:          1.25rem !default;
 
@@ -39,6 +39,10 @@ $card-columns-margin:               $card-spacer-y !default;
     background-clip: border-box;
     border: $card-border-width solid $card-border-color;
     @include border-radius($card-border-radius);
+    @include card(4);
+
+    backface-visibility: hidden;
+    backdrop-filter: var(--blur-main);
 
     > hr {
         margin-right: 0;
@@ -56,6 +60,7 @@ $card-columns-margin:               $card-spacer-y !default;
             @include border-bottom-radius($card-border-radius);
         }
     }
+
 }
 
 .card-body {
@@ -67,6 +72,9 @@ $card-columns-margin:               $card-spacer-y !default;
     min-height: 1px;
     padding: $card-spacer-x;
     color: $card-color;
+    small {
+        color: var(--fontcolor);
+    }
 }
 
 .card-title {
@@ -99,8 +107,10 @@ $card-columns-margin:               $card-spacer-y !default;
 .card-header {
     padding: $card-spacer-y $card-spacer-x;
     margin-bottom: 0; // Removes the default margin-bottom of <hN>
-    color: $card-cap-color;
+
     background-color: $card-cap-bg;
+    color: $card-cap-color;
+    text-transform: uppercase;
     border-bottom: $card-border-width solid $card-border-color;
 
     &:first-child {

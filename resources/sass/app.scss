@@ -23,34 +23,3 @@
 
 
 
-.card {
-
-    @include card(4);
-    backface-visibility: hidden;
-    backdrop-filter: var(--blur-main);
-
-    background-color: transparent;
-    // color: var(--fontcolor);
-    border: solid, 1px, var(--boxlayer-02);
-
-    .card-header {
-        text-transform: uppercase;
-        //background-color: var(--boxlayer-02);
-        color: var(--fontcolor);
-    }
-
-    .card-body {
-        // background-color: var(--boxlayer-02);
-        color: var(--fontcolor);
-
-        small {
-            color: var(--fontcolor);
-        }
-    }
-
-    .card-footer {
-        // background-color: var(--boxlayer-02);
-        color: var(--fontcolor);
-    }
-}
-

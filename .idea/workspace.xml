@@ -2,57 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b57132-b3de-4ad5-bf03-4662290526e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/fonts/agbuchbq-boldoutline-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/agbuchbq-boldoutline-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/agbuchbq-boldoutline-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/agbuchbq-boldoutline-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/agbuchbq-boldoutline-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-bold-font-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-bold-font-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-bold-font-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-bold-font-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-bold-font-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-light-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-light-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-light-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-light-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-roman-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-roman-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-roman-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-roman-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-roman-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-roman-font-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/abstracts/_mixin-border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/abstracts/_mixin-breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/abstracts/_mixin-func.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/abstracts/_mixin-hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/layout/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/layout/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/fontimport.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/fontimport.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_color-ci.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_color-ci.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_root.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/base/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/base/_typo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/base/_typo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/fontimport.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/fontimport.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/fontimport.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/fontimport.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/fontimport.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/fontimport.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/layout/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/layout/_jumbotron.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/layout/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/layout/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/channel/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/channel/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/form-container.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/form-container.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +187,7 @@
       <updated>1591907638726</updated>
       <workItem from="1591907665294" duration="2445000" />
       <workItem from="1591911323712" duration="2318000" />
-      <workItem from="1591913786335" duration="3085000" />
+      <workItem from="1591913786335" duration="4010000" />
     </task>
     <servers />
   </component>

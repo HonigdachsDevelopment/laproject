@@ -42,25 +42,6 @@
   --blur-main: blur(20px);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  margin-bottom: 4px;
-  font-family: "akzidenzgroteskbold", sans-serif;
-  font-weight: 400;
-  line-height: auto;
-  color: #7b29ff;
-}
-
 body {
   color: var(--fontcolor);
   font: normal, 89.2857142857%, "Montserrat", sans-serif;
@@ -76,6 +57,32 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 4px;
+  font-family: "akzidenzgroteskbold", sans-serif;
+  font-weight: 700;
+  line-height: auto;
+  color: #7b29ff;
+}
+
+h1,
+h2,
+.h1,
+.h2 {
+  font-size: 2rem;
 }
 
 /**
@@ -101,9 +108,14 @@ a:hover {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: var(--boxlayer-00);
+  background-color: rgba(214, 214, 214, 0.7);
   background-clip: border-box;
   border: 1px solid var(--bordercolor);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-backdrop-filter: var(--blur-main);
+          backdrop-filter: var(--blur-main);
 }
 
 .card > hr {
@@ -114,12 +126,16 @@ a:hover {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem;
+  padding: 1rem;
+  color: var(--fontcolor);
+}
+
+.card-body small {
   color: var(--fontcolor);
 }
 
 .card-title {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .card-text:last-child {
@@ -127,15 +143,16 @@ a:hover {
 }
 
 .card-header {
-  padding: 0.75rem 1.25rem;
+  padding: 0.5rem 1rem;
   margin-bottom: 0;
-  color: var(--accent);
   background-color: var(--boxlayer-00);
+  color: var(--accent);
+  text-transform: uppercase;
   border-bottom: 1px solid var(--bordercolor);
 }
 
 .card-footer {
-  padding: 0.75rem 1.25rem;
+  padding: 0.5rem 1rem;
   background-color: var(--boxlayer-00);
   border-top: 1px solid var(--bordercolor);
 }
@@ -197,32 +214,5 @@ form,
 .form-group {
   background-color: transparent;
   color: var(--fontcolor-inv);
-}
-
-.card {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-backdrop-filter: var(--blur-main);
-          backdrop-filter: var(--blur-main);
-  background-color: transparent;
-  border: solid, 1px, var(--boxlayer-02);
-}
-
-.card .card-header {
-  text-transform: uppercase;
-  color: var(--fontcolor);
-}
-
-.card .card-body {
-  color: var(--fontcolor);
-}
-
-.card .card-body small {
-  color: var(--fontcolor);
-}
-
-.card .card-footer {
-  color: var(--fontcolor);
 }
 

@@ -45,20 +45,12 @@ $font-stack-code: $roboto-mono, $roboto, 'Courier New', 'DejaVu Sans Mono', 'Bit
 // Bootstrap overrides
 $headings-margin-bottom: 4px;
 $headings-font-family: $font-family-headline;
-$headings-font-weight: 400;
+$headings-font-weight: 700;
 $headings-line-height: auto;
 // TODO adjust css vars here
 $headings-color: $prime;
 
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-    margin-bottom: $headings-margin-bottom;
-    font-family: $headings-font-family;
-    font-weight: $headings-font-weight;
-    line-height: $headings-line-height;
-    color: $headings-color;
-}
 
 
 $font-size-base: 1rem;
@@ -77,6 +69,9 @@ $line-height-xs: 1.35;
 @mixin fontMono($font-style: normal, $font-line: 125% / 1.4, $font-family: $font-family-mono) {
     font: $font-style, $font-line, $font-family;
 }
+@mixin fontHeadline($font-style: normal, $font-line: 125% / 1.4, $font-family: $font-family-headline) {
+    font: $font-style, $font-line, $font-family;
+}
 
 body {
     color: var(--fontcolor);
@@ -93,4 +88,17 @@ a {
     &:hover{
         text-decoration: none;
     }
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: $headings-margin-bottom;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    line-height: $headings-line-height;
+    color: $headings-color;
+}
+
+h1, h2, .h1, .h2{
+    font-size: 2rem;
 }
