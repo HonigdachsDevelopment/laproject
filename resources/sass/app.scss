@@ -2,58 +2,26 @@
 // @import '../assets/fonts/montserrat-regular/montserrat_latin.scss';
 
 // Variables
-@import 'variables',
-"root",
+@import
 'mixins',
+'variables',
+"root";
+
+@import
 'base/typo',
 'base/base';
 
+@import "layout/card",
+"layout/navbar";
 
-a {
-    background-color: transparent;
-    color: var(--link);
 
-    &:hover {
-        color: var(--linkhover);
-    }
-}
 
 .form-control, form, .form-group {
     background-color: transparent;
     color: var(--fontcolor-inv);
 }
 
-.jumbotron {
 
-    @include card(4);
-    backface-visibility: hidden;
-    backdrop-filter: var(--blur-main);
-
-    background-color: transparent;
-    color: var(--fontcolor);
-    border: solid, 1px, var(--boxlayer-02);
-}
-
-.navbar {
-    @include card(4);
-    backface-visibility: hidden;
-    backdrop-filter: var(--blur-main);
-
-    button {
-        color: #000;
-    }
-}
-
-.navbar, .navbar-brand, .nav-link {
-
-    background-color: transparent;
-    //background-color: var(--boxlayer-02);
-    color: var(--link);
-
-    &:hover {
-        color: var(--linkhover);
-    }
-}
 
 .card {
 

@@ -2,54 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b57132-b3de-4ad5-bf03-4662290526e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/agbuchbq-boldoutline-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/agbuchbq-boldoutline-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/agbuchbq-boldoutline-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/agbuchbq-boldoutline-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/agbuchbq-boldoutline-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/agbuchbq-boldoutline-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-light/agbuchbq-light-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-light/akzidenz-grotesk-light-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-light/akzidenz-grotesk-light-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-light/akzidenz-grotesk-light-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-light/akzidenz-grotesk-light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-light/akzidenz-grotesk-light-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-roman/akzidenz-grotesk-roman-font-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-roman/akzidenz-grotesk-roman-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-roman/akzidenz-grotesk-roman-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-roman/akzidenz-grotesk-roman-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-roman/akzidenz-grotesk-roman-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-roman/akzidenz-grotesk-roman-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-roman/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/stylesheet-akzidenzgroteskFamily.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/stylesheet-akzidenzgroteskFamily.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/stylesheet-akzidenzgroteskFamily.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/agbuchbq-boldoutline-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/agbuchbq-boldoutline-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/agbuchbq-boldoutline-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/agbuchbq-boldoutline-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/agbuchbq-boldoutline-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-bold-font-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-bold-font-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-bold-font-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-bold-font-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-bold-font-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-light-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-light-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-light-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-light-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-roman-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-roman-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-roman-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-roman-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/akzidenz-grotesk-roman-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-roman-font-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/abstracts/_mixin-border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/abstracts/_mixin-breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/abstracts/_mixin-func.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/abstracts/_mixin-hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/layout/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/layout/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/agbuchbq-boldoutline/agbuchbq-boldoutline-webfont-demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/agbuchbq-boldoutline-webfont-demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/agbuchbq-boldoutline/agbuchbq-boldoutline-webfont-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/agbuchbq-boldoutline-webfont-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/agbuchbq-boldoutline/agbuchbq-boldoutline-webfont-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/agbuchbq-boldoutline-webfont-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/agbuchbq-boldoutline/generator_config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/generator_config.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/agbuchbq-boldoutline/specimen_files/grid_12-825-55-15.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/agbuchbq-boldoutline/specimen_files/specimen_stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/agbuchbq-boldoutline/stylesheet-agboldoutline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/agbuch-boldoutline/stylesheet-agboldoutline.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fontimport.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/fontimport.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_color-ci.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_color-ci.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/base/_typo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/base/_typo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/fontimport.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/fontimport.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/fontimport.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/fontimport.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/fontimport.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/fontimport.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/layout/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/layout/_jumbotron.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +62,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -184,7 +194,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ProgramData/chocolatey/lib/sass/tools/sass.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/assets/fonts/akzidenz-Grotesk-Family/akzidenz-grotesk-bold" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
@@ -195,6 +207,7 @@
       <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\database\migrations" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts\akzidenz-Grotesk-Family\akzidenz-grotesk-bold" />
       <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts\agbuch-boldoutline" />
       <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts" />
     </key>
@@ -217,7 +230,7 @@
       <updated>1591907638726</updated>
       <workItem from="1591907665294" duration="2445000" />
       <workItem from="1591911323712" duration="2318000" />
-      <workItem from="1591913786335" duration="847000" />
+      <workItem from="1591913786335" duration="3085000" />
     </task>
     <servers />
   </component>
@@ -256,13 +269,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="539" key="HiddenNamespacesPopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591909563743" />
-    <state x="568" y="164" width="1079" height="711" key="SettingsEditor" timestamp="1591913826555">
+    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1591915544552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="568" y="164" width="1079" height="711" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591913826555" />
+    <state x="794" y="439" key="NewPhpFileDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591915544552" />
+    <state x="568" y="164" width="1079" height="711" key="SettingsEditor" timestamp="1591915706017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="568" y="164" width="1079" height="711" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591915706017" />
     <state x="875" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591911891827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="875" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591911891827" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591916005073">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591916005073" />
   </component>
 </project>

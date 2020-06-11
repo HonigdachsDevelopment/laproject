@@ -45,7 +45,7 @@ initDarkMode();
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\LaravelProjects\projectmanagerV1\resources\js\scripts.js */"./resources/js/scripts.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\LaravelProjects\lasocial\resources\js\scripts.js */"./resources/js/scripts.js");
 
 
 /***/ })

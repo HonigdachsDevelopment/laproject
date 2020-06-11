@@ -1,103 +1,133 @@
 :root {
-  --background: #e8e8e8;
-  --background-inv: #292929;
+  --background: #7d7d7d;
+  --background-inv: #7d7d7d;
   --boxlayer-01: #6c6c6c;
   --boxlayer-02: #3d3d3d;
-  --fontcolor: black;
-  --fontcolor-inv: #f8fafc;
-  --accentcolor: #aebaff;
-  --shadowcolor: #0e0e0e;
-  --link: #01757f;
-  --linkhover: #009eac;
-  --linkactive: #009eac;
-  --info: #244949; }
+  --fontcolor: #ffffff;
+  --fontcolor-inv: #000000;
+  --accentcolor: #039179;
+  --shadowcolor: #1a1a1a;
+  --link: #cc86ff;
+  --linkhover: #9d00ff;
+  --linkactive: #9d00ff;
+  --info: #18ffff;
+  --danger: #ff0000;
+  --warning: #ff6d00;
+  --note: #ffff00;
+  --success: #64dd17;
+  --blur-main: blur(20px);
+}
 
 .DarkMode {
-  --background: #292929;
-  --background-inv: #e8e8e8;
+  --background: #7d7d7d;
+  --background-inv: #7d7d7d;
   --boxlayer-01: #6d6d6d;
-  --boxlayer-02: #656565;
-  --fontcolor: #f8fafc;
-  --fontcolor-inv: black;
-  --acecent: #aebaff;
-  --link: #ffcef4;
-  --linkhover: #ff00c5;
-  --linkactive: #ff00c5; }
+  --boxlayer-02: #050505;
+  --fontcolor: #000000;
+  --fontcolor-inv: #ffffff;
+  --accentcolor: #b2dfdb;
+  --shadowcolor: #f1f1f1;
+  --link: #cc86ff;
+  --linkhover: #9d00ff;
+  --linkactive: #9d00ff;
+  --info: #18ffff;
+  --danger: #ff0000;
+  --warning: #ff6d00;
+  --note: #ffff00;
+  --success: #64dd17;
+  --blur-main: blur(20px) ;
+}
 
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 4px;
+  font-family: "akzidenzgroteskbold", sans-serif;
   font-weight: 400;
-  font-display: swap;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(montserrat-regular.ttf) format("truetype"); }
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
+  line-height: auto;
+  color: #7b29ff;
+}
+
+body {
+  color: var(--fontcolor);
+  font: normal, 89.2857142857%, "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color: var(--link);
+  font: normal, 89.2857142857%, "roboto", sans-serif;
+  text-transform: uppercase;
   font-weight: 500;
-  font-display: swap;
-  src: local("Montserrat Medium"), local("Montserrat-Medium"), url(montserrat-medium.ttf) format("truetype"); }
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url(montserrat-semibold.ttf) format("truetype"); }
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local("Montserrat Bold"), local("Montserrat-Bold"), url(montserrat-bold.ttf) format("truetype"); }
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: local("Montserrat ExtraBold"), local("Montserrat-ExtraBold"), url(montserrat-extrabold.ttf) format("truetype"); }
+}
+a:hover {
+  text-decoration: none;
+}
+
 /**
  * Basic style
  */
 body {
   background-color: var(--background);
-  color: var(--fontcolor);
-  font: normal 125%/1.4 "Montserrat", "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+}
 
 a {
   background-color: transparent;
-  color: var(--link); }
+  color: var(--link);
+}
+a:hover {
+  color: var(--linkhover);
+}
 
 .form-control, form, .form-group {
   background-color: transparent;
-  color: var(--fontcolor-inv); }
+  color: var(--fontcolor-inv);
+}
 
 .jumbotron {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
-  color: var(--fontcolor-inv);
-  background-color: var(--boxlayer-02); }
+  backface-visibility: hidden;
+  backdrop-filter: var(--blur-main);
+  background-color: transparent;
+  color: var(--fontcolor);
+  border: solid, 1px, var(--boxlayer-02);
+}
 
 .navbar {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25); }
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+  backface-visibility: hidden;
+  backdrop-filter: var(--blur-main);
+}
+.navbar button {
+  color: #000;
+}
 
 .navbar, .navbar-brand, .nav-link {
-  background-color: var(--boxlayer-02);
-  color: var(--link); }
-  .navbar:hover, .navbar-brand:hover, .nav-link:hover {
-    color: var(--linkhover); }
+  background-color: transparent;
+  color: var(--link);
+}
+.navbar:hover, .navbar-brand:hover, .nav-link:hover {
+  color: var(--linkhover);
+}
 
 .card {
-  border: none;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25); }
-  .card .card-header {
-    text-transform: uppercase;
-    background-color: var(--boxlayer-02);
-    color: var(--fontcolor); }
-  .card .card-body {
-    background-color: var(--boxlayer-02);
-    color: var(--fontcolor); }
-    .card .card-body small {
-      color: var(--fontcolor); }
-  .card .card-footer {
-    background-color: var(--boxlayer-02);
-    color: var(--fontcolor); }
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+  backface-visibility: hidden;
+  backdrop-filter: var(--blur-main);
+  background-color: transparent;
+  border: solid, 1px, var(--boxlayer-02);
+}
+.card .card-header {
+  text-transform: uppercase;
+  color: var(--fontcolor);
+}
+.card .card-body {
+  color: var(--fontcolor);
+}
+.card .card-body small {
+  color: var(--fontcolor);
+}
+.card .card-footer {
+  color: var(--fontcolor);
+}
 
 /*# sourceMappingURL=app.css.map */

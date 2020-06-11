@@ -1,4 +1,10 @@
+.jumbotron {
 
-.jumbotron{
- background-color: $black;   
+    @include card(4);
+    backface-visibility: hidden;
+    backdrop-filter: var(--blur-main);
+
+    background-color: transparent;
+    color: var(--fontcolor);
+    border: solid, 1px, var(--boxlayer-02);
 }

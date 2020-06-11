@@ -1,14 +1,56 @@
 //@import "colors";
 @import "color-ci";
 
+$enable-rounded : false;
 
 $blur-main: blur(20px);
 $depth-row: 4;
 $depth-item: 2;
 
 
+
+$border-radius: 3px;
+$border-width: 1px;
+
+
+
+// Characters which are escaped by the escape-svg function
+$escaped-characters: (
+        ("<","%3c"),
+        (">","%3e"),
+        ("#","%23"),
+) !default;
+
+
+
 $grid-gutter-width: 1rem;
 
+// Options
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
 
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+) !default;
 
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px
+) !default;
+
+@include _assert-ascending($container-max-widths, "$container-max-widths");
 

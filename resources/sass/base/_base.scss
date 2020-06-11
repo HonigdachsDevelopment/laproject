@@ -6,3 +6,12 @@ body {
     background-color: var(--background);
 
 }
+
+a {
+    background-color: transparent;
+    color: var(--link);
+
+    &:hover {
+        color: var(--linkhover);
+    }
+}

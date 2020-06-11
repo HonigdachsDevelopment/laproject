@@ -2,9 +2,6 @@
 @section('content')
 
 <x-formonly-wrapper>
-
-
-
         <div class="card-header">
             {{ $channel->name }}
         </div>

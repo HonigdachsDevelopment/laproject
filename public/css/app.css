@@ -1,13 +1,15 @@
 :root {
   --background: #7d7d7d;
   --background-inv: #7d7d7d;
-  --boxlayer-01: #6c6c6c;
-  --boxlayer-02: #3d3d3d;
-  --fontcolor: #ffffff;
-  --fontcolor-inv: #000000;
-  --accentcolor: #039179;
+  --boxlayer-00: #f9f9f9;
+  --boxlayer-01: #d6d6d6;
+  --boxlayer-02: #909090;
+  --bordercolor: #000000;
+  --fontcolor: #000000;
+  --fontcolor-inv: #ffffff;
+  --accentcolor: #4C1356;
   --shadowcolor: #1a1a1a;
-  --link: #cc86ff;
+  --link: #4C1356;
   --linkhover: #9d00ff;
   --linkactive: #9d00ff;
   --info: #18ffff;
@@ -21,13 +23,15 @@
 .DarkMode {
   --background: #7d7d7d;
   --background-inv: #7d7d7d;
-  --boxlayer-01: #6d6d6d;
-  --boxlayer-02: #050505;
-  --fontcolor: #000000;
-  --fontcolor-inv: #ffffff;
-  --accentcolor: #b2dfdb;
+  --boxlayer-00: #1a1a1a;
+  --boxlayer-01: #121212;
+  --boxlayer-02: #1a1a1a;
+  --bordercolor: #ffffff;
+  --fontcolor: #ffffff;
+  --fontcolor-inv: #000000;
+  --accentcolor: #cc86ff;
   --shadowcolor: #f1f1f1;
-  --link: #cc86ff;
+  --link: #4C1356;
   --linkhover: #9d00ff;
   --linkactive: #9d00ff;
   --info: #18ffff;
@@ -51,7 +55,7 @@ h6,
 .h5,
 .h6 {
   margin-bottom: 4px;
-  font-family: "work_sansbblack", sans-serif;
+  font-family: "akzidenzgroteskbold", sans-serif;
   font-weight: 400;
   line-height: auto;
   color: #7b29ff;
@@ -91,11 +95,76 @@ a:hover {
   color: var(--linkhover);
 }
 
-.form-control,
-form,
-.form-group {
-  background-color: transparent;
-  color: var(--fontcolor-inv);
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: var(--boxlayer-00);
+  background-clip: border-box;
+  border: 1px solid var(--bordercolor);
+}
+
+.card > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  color: var(--fontcolor);
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  color: var(--accent);
+  background-color: var(--boxlayer-00);
+  border-bottom: 1px solid var(--bordercolor);
+}
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: var(--boxlayer-00);
+  border-top: 1px solid var(--bordercolor);
+}
+
+
+.card-img-top {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.card-group > .card {
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 576px) {
+  .card-group {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .card-group > .card {
+    flex: 1 0 0%;
+    margin-bottom: 0;
+  }
+
+  .card-group > .card + .card {
+    margin-left: 0;
+    border-left: 0;
+  }
 }
 
 .navbar {
@@ -113,7 +182,7 @@ form,
 .navbar,
 .navbar-brand,
 .nav-link {
-  background-color: transparent;
+  background-color: var(--boxlayer-00);
   color: var(--link);
 }
 
@@ -121,6 +190,13 @@ form,
 .navbar-brand:hover,
 .nav-link:hover {
   color: var(--linkhover);
+}
+
+.form-control,
+form,
+.form-group {
+  background-color: transparent;
+  color: var(--fontcolor-inv);
 }
 
 .card {

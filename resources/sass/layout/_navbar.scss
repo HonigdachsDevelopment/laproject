@@ -1,0 +1,20 @@
+
+.navbar {
+    @include card(4);
+    backface-visibility: hidden;
+    backdrop-filter: var(--blur-main);
+
+    button {
+        color: #000;
+    }
+}
+
+.navbar, .navbar-brand, .nav-link {
+
+    background-color:var(--boxlayer-00);
+    color: var(--link);
+
+    &:hover {
+        color: var(--linkhover);
+    }
+}

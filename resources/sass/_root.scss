@@ -4,12 +4,13 @@
     // assigning root light theme
     --background: #{$background-lg};
     --background-inv: #{$background-dk};
+    --boxlayer-00:  #{$boxlayer-lg-00};
     --boxlayer-01:  #{$boxlayer-lg-01};
     --boxlayer-02:  #{$boxlayer-lg-02};
-
+    --bordercolor :  #{$border-color-lg};
     --fontcolor: #{$fontcolor-lg};
     --fontcolor-inv: #{$fontcolor-dk};
-    --accentcolor:  #{$accent-lg};
+    --accentcolor:  #{$prime-lg};
     --shadowcolor:  #{$boxshade-lg};
 
     --link:  #{$link-lg};
@@ -31,12 +32,14 @@
 .DarkMode {
     --background: #{$background-dk};
     --background-inv: #{$background-lg};
+    --boxlayer-00: #{$boxlayer-dk-00};
     --boxlayer-01: #{$boxlayer-dk-01};
     --boxlayer-02: #{$boxlayer-dk-02};
+    --bordercolor :  #{$border-color-dk};
 
     --fontcolor: #{$fontcolor-dk};
     --fontcolor-inv: #{$fontcolor-lg};
-    --accentcolor:  #{$accent-dk};
+    --accentcolor:  #{$prime-dk};
     --shadowcolor:  #{$boxshade-dk};
 
     --link: #{$link-dk};

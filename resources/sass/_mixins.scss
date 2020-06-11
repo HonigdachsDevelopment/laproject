@@ -1,3 +1,9 @@
+@import "abstracts/mixin-func";
+@import "abstracts/mixin-breakpoints";
+
+@import "abstracts/mixin-border-radius";
+@import "abstracts/mixin-hover";
+
 @import "abstracts/mixin-maintain-ratio";
 @import "abstracts/mixin-material-design-shadow";
 @import "abstracts/mixin-gradient-linear";

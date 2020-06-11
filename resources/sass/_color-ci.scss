@@ -12,20 +12,22 @@ $bmod-darkest:               $gray-000 !default;
 $bmod-black:                 $black !default;
 
 $background-lg:         $bmod-mid;
-$boxlayer-lg-00:        rgba(232, 232, 232,1);
-$boxlayer-lg-01:        rgba(108, 108, 108,1);
-$boxlayer-lg-02:        rgba(61, 61, 61,1);
+$boxlayer-lg-00:        $bmod-lightest;
+$boxlayer-lg-01:        $bmod-lighter;
+$boxlayer-lg-02:        $bmod-light;
+$border-color-lg:        $bmod-black;
 
-$fontcolor-lg:          $bmod-white;
-$fontcolor-lg-02:       $bmod-lightest;
+$fontcolor-lg:          $bmod-black;
+$fontcolor-lg-02:       $bmod-darkest;
 
 $background-dk:         $bmod-mid;
-$boxlayer-dk-00:        rgba(41, 41, 41,1);
-$boxlayer-dk-01:        rgba(109, 109, 109,1);
-$boxlayer-dk-02:        rgba(5, 5, 5,1);
+$boxlayer-dk-00:        $bmod-darker;
+$boxlayer-dk-01:        $bmod-darkest;
+$boxlayer-dk-02:        $bmod-darker;
+$border-color-dk:        $bmod-white;
 
-
-$fontcolor-dk:          $bmod-black;
+$fontcolor-dk:          $bmod-white;
+$fontcolor-dk-02:          $bmod-white;
 
 
 $boxshade-lg:           $gray-950;
@@ -35,8 +37,8 @@ $boxshade-dk:           #f1f1f1;
 
 // === 2 assetUI-colors
 $prime:                 $purple !default;
-$prime-lg:              $purple-light !default;
-$prime-dk:              $purple-deep !default;
+$prime-dk:              $purple-light !default;
+$prime-lg:              $purple-deep !default;
 $prime-electric:        $purple-electric !default;
 
 

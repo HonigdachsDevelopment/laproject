@@ -2,37 +2,41 @@
 // ###########################################   font variables
 
 $montserrat: 'Montserrat';
-$coolvetica: 'coolveticaregular';
-$electro-sans: 'Electro Sans';
-$akzident-outline: 'ag_buch_bqregular';
-$worksans-black: 'work_sansbblack';
-$worksans-bold: 'work_sansbold';
-$worksans-extrabold: 'work_sansextrabold';
-$worksans-extralight: 'work_sansextralight';
-$worksans-light: 'work_sanslight';
-$worksans-medium: 'work_sansmedium';
-$worksans-regular: 'work_sansregular';
-$worksans-semibold: 'work_sanssemibold';
-$worksans-thin: 'work_sanssemithin';
-$furiosa-drive: 'furiosadrive';
-$furiosa-park: 'furiosapark';
-$oswald: 'Oswald';
+//$coolvetica: 'coolveticaregular';
+//$electro-sans: 'Electro Sans';
+//$akzident-outline: 'ag_buch_bqregular';
+//$worksans-black: 'work_sansbblack';
+//$worksans-bold: 'work_sansbold';
+//$worksans-extrabold: 'work_sansextrabold';
+//$worksans-extralight: 'work_sansextralight';
+//$worksans-light: 'work_sanslight';
+//$worksans-medium: 'work_sansmedium';
+//$worksans-regular: 'work_sansregular';
+//$worksans-semibold: 'work_sanssemibold';
+//$worksans-thin: 'work_sanssemithin';
+//$furiosa-drive: 'furiosadrive';
+//$furiosa-park: 'furiosapark';
+//$oswald: 'Oswald';
 $roboto: 'roboto';
 $roboto-mono: 'Roboto-Mono';
-$loveRosnita-sans: 'LoveRosnitaSans';
-$loveRosnita: 'LoveRosnita';
+//$loveRosnita-sans: 'LoveRosnitaSans';
+//$loveRosnita: 'LoveRosnita';
+$akzident-outline: 'ag_buch_bqregular';
+$akzidenz-bold: 'akzidenzgroteskbold';
+$akzident-regular: 'akzidenzgroteskroman';
+$akzident-light: 'akzidenzgrotesklight';
 
 
 $font-family-base: $montserrat, sans-serif;
 $font-family-outline: $akzident-outline, sans-serif;
-$font-family-headline: $worksans-black, sans-serif;
+$font-family-headline: $akzidenz-bold, sans-serif;
 $font-family-mono: $roboto, sans-serif;
 $font-family-code: $roboto-mono, sans-serif;
-$font-family-sign: $loveRosnita;
+//$font-family-sign: $loveRosnita;
 
 /// Regular font family
 /// @type List
-$font-stack-base: $montserrat, $worksans-regular ,'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$font-stack-base: $montserrat,'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
 /// Code (monospace) font family
 /// @type List
