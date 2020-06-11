@@ -1,0 +1,41 @@
+/*! akzidenz outline */
+@font-face {
+  font-family: "akzidenzgroteskregular";
+  src: url("akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.eot");
+  src: url("akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.eot?#iefix") format("embedded-opentype"), url("akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.woff2") format("woff2"), url("akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.woff") format("woff"), url("akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.ttf") format("truetype"), url("akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.svg#akzidenzgroteskregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ag_buch_bqregular";
+  src: url("agbuch-boldoutline/agbuchbq-boldoutline-webfont.eot");
+  src: url("agbuch-boldoutline/agbuchbq-boldoutline-webfont.eot?#iefix") format("embedded-opentype"), url("agbuch-boldoutline/agbuchbq-boldoutline-webfont.woff2") format("woff2"), url("agbuch-boldoutline/agbuchbq-boldoutline-webfont.woff") format("woff"), url("agbuch-boldoutline/agbuchbq-boldoutline-webfont.ttf") format("truetype"), url("agbuch-boldoutline/agbuchbq-boldoutline-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*  #akzidenz regular */
+@font-face {
+  font-family: "akzidenzgroteskroman";
+  src: url("akzidenz-grotesk-roman/akzidenz-grotesk-roman-webfont.eot");
+  src: url("akzidenz-grotesk-roman/akzidenz-grotesk-roman-webfont.eot?#iefix") format("embedded-opentype"), url("akzidenz-grotesk-roman/akzidenz-grotesk-roman-webfont.woff2") format("woff2"), url("akzidenz-grotesk-roman/akzidenz-grotesk-roman-webfont.woff") format("woff"), url("akzidenz-grotesk-roman/akzidenz-grotesk-roman-webfont.ttf") format("truetype"), url("akzidenz-grotesk-roman/akzidenz-grotesk-roman-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*  #akzidenz bold */
+@font-face {
+  font-family: "akzidenzgroteskbold";
+  src: url("akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.eot");
+  src: url("akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.eot?#iefix") format("embedded-opentype"), url("akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.woff2") format("woff2"), url("akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.woff") format("woff"), url("akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.ttf") format("truetype"), url("akzidenz-grotesk-bold/akzidenz-grotesk-bold-font-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*  #akzidenz light */
+@font-face {
+  font-family: "akzidenzgrotesklight";
+  src: url("akzidenz-grotesk-light/akzidenz-grotesk-light-webfont.eot");
+  src: url("akzidenz-grotesk-light/akzidenz-grotesk-light-webfont.eot?#iefix") format("embedded-opentype"), url("akzidenz-grotesk-light/akzidenz-grotesk-light-webfont.woff2") format("woff2"), url("akzidenz-grotesk-light/akzidenz-grotesk-light-webfont.woff") format("woff"), url("akzidenz-grotesk-light/akzidenz-grotesk-light-webfont.ttf") format("truetype"), url("akzidenz-grotesk-light/akzidenz-grotesk-light-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=stylesheet-akzidenzgroteskFamily.css.map */
