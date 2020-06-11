@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b57132-b3de-4ad5-bf03-4662290526e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab756a0f-328a-4787-97ee-039cda7ba7b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab756a0f-328a-4787-97ee-039cda7ba7b5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/_migUUiDbranch/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/2020_05_19_192914_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_19_192914_create_roles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/2020_05_19_194138_create_role_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_19_194138_create_role_user_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/2020_05_23_185944_create_foreign_keys_for_role_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_23_185944_create_foreign_keys_for_role_user_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -131,11 +137,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\database\migrations" />
+      <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\database\_migUUiDbranch" />
     </key>
   </component>
   <component name="RunManager">
@@ -155,6 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591907638726</updated>
       <workItem from="1591907665294" duration="2445000" />
+      <workItem from="1591911323712" duration="608000" />
     </task>
     <servers />
   </component>
@@ -174,9 +182,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="539" key="HiddenNamespacesPopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591909563743" />
-    <state x="568" y="164" width="1079" height="711" key="SettingsEditor" timestamp="1591909697957">
+    <state x="568" y="164" width="1079" height="711" key="SettingsEditor" timestamp="1591911486424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="568" y="164" width="1079" height="711" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591909697957" />
+    <state x="568" y="164" width="1079" height="711" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591911486424" />
+    <state x="875" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591911891827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="875" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591911891827" />
   </component>
 </project>
