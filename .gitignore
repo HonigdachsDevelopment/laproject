@@ -1,0 +1,12 @@
+/public/hot
+/public/storage
+
+.sass-cache
+
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+projectmanagerV1.code-workspace

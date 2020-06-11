@@ -1,0 +1,92 @@
+// -----------------------------------------------------------------------------
+// ###########################################   font variables
+
+$montserrat: 'Montserrat';
+$coolvetica: 'coolveticaregular';
+$electro-sans: 'Electro Sans';
+$akzident-outline: 'ag_buch_bqregular';
+$worksans-black: 'work_sansbblack';
+$worksans-bold: 'work_sansbold';
+$worksans-extrabold: 'work_sansextrabold';
+$worksans-extralight: 'work_sansextralight';
+$worksans-light: 'work_sanslight';
+$worksans-medium: 'work_sansmedium';
+$worksans-regular: 'work_sansregular';
+$worksans-semibold: 'work_sanssemibold';
+$worksans-thin: 'work_sanssemithin';
+$furiosa-drive: 'furiosadrive';
+$furiosa-park: 'furiosapark';
+$oswald: 'Oswald';
+$roboto: 'roboto';
+$roboto-mono: 'Roboto-Mono';
+$loveRosnita-sans: 'LoveRosnitaSans';
+$loveRosnita: 'LoveRosnita';
+
+
+$font-family-base: $montserrat, sans-serif;
+$font-family-outline: $akzident-outline, sans-serif;
+$font-family-headline: $worksans-black, sans-serif;
+$font-family-mono: $roboto, sans-serif;
+$font-family-code: $roboto-mono, sans-serif;
+$font-family-sign: $loveRosnita;
+
+/// Regular font family
+/// @type List
+$font-stack-base: $montserrat, $worksans-regular ,'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$font-stack-code: $roboto-mono, $roboto, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+// Bootstrap overrides
+$headings-margin-bottom: 4px;
+$headings-font-family: $font-family-headline;
+$headings-font-weight: 400;
+$headings-line-height: auto;
+// TODO adjust css vars here
+$headings-color: $prime;
+
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: $headings-margin-bottom;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    line-height: $headings-line-height;
+    color: $headings-color;
+}
+
+
+$font-size-base: 1rem;
+$font-size-lg: $font-size-base * 1.25;
+$font-size-s:  $font-size-base * .875;
+$font-size-xs: $font-size-base * .625;
+
+$line-height-base: 1.6;
+$line-height-s: 1.45;
+$line-height-xs: 1.35;
+
+
+@mixin fontBase($font-style: normal, $font-line: 125% / 1.4, $font-family: $font-family-base) {
+    font: $font-style, $font-line, $font-family;
+}
+@mixin fontMono($font-style: normal, $font-line: 125% / 1.4, $font-family: $font-family-mono) {
+    font: $font-style, $font-line, $font-family;
+}
+
+body {
+    color: var(--fontcolor);
+    @include fontBase();
+    font-weight: 300;
+}
+
+a {
+    color: var(--link);
+    @include fontMono();
+    text-transform: uppercase;
+    font-weight: 500;
+
+    &:hover{
+        text-decoration: none;
+    }
+}

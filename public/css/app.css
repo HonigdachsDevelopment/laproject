@@ -1,0 +1,152 @@
+:root {
+  --background: #7d7d7d;
+  --background-inv: #7d7d7d;
+  --boxlayer-01: #6c6c6c;
+  --boxlayer-02: #3d3d3d;
+  --fontcolor: #ffffff;
+  --fontcolor-inv: #000000;
+  --accentcolor: #039179;
+  --shadowcolor: #1a1a1a;
+  --link: #cc86ff;
+  --linkhover: #9d00ff;
+  --linkactive: #9d00ff;
+  --info: #18ffff;
+  --danger: #ff0000;
+  --warning: #ff6d00;
+  --note: #ffff00;
+  --success: #64dd17;
+  --blur-main: blur(20px);
+}
+
+.DarkMode {
+  --background: #7d7d7d;
+  --background-inv: #7d7d7d;
+  --boxlayer-01: #6d6d6d;
+  --boxlayer-02: #050505;
+  --fontcolor: #000000;
+  --fontcolor-inv: #ffffff;
+  --accentcolor: #b2dfdb;
+  --shadowcolor: #f1f1f1;
+  --link: #cc86ff;
+  --linkhover: #9d00ff;
+  --linkactive: #9d00ff;
+  --info: #18ffff;
+  --danger: #ff0000;
+  --warning: #ff6d00;
+  --note: #ffff00;
+  --success: #64dd17;
+  --blur-main: blur(20px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 4px;
+  font-family: "work_sansbblack", sans-serif;
+  font-weight: 400;
+  line-height: auto;
+  color: #7b29ff;
+}
+
+body {
+  color: var(--fontcolor);
+  font: normal, 89.2857142857%, "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color: var(--link);
+  font: normal, 89.2857142857%, "roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/**
+ * Basic style
+ */
+
+body {
+  background-color: var(--background);
+}
+
+a {
+  background-color: transparent;
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--linkhover);
+}
+
+.form-control,
+form,
+.form-group {
+  background-color: transparent;
+  color: var(--fontcolor-inv);
+}
+
+.navbar {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-backdrop-filter: var(--blur-main);
+          backdrop-filter: var(--blur-main);
+}
+
+.navbar button {
+  color: #000;
+}
+
+.navbar,
+.navbar-brand,
+.nav-link {
+  background-color: transparent;
+  color: var(--link);
+}
+
+.navbar:hover,
+.navbar-brand:hover,
+.nav-link:hover {
+  color: var(--linkhover);
+}
+
+.card {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-backdrop-filter: var(--blur-main);
+          backdrop-filter: var(--blur-main);
+  background-color: transparent;
+  border: solid, 1px, var(--boxlayer-02);
+}
+
+.card .card-header {
+  text-transform: uppercase;
+  color: var(--fontcolor);
+}
+
+.card .card-body {
+  color: var(--fontcolor);
+}
+
+.card .card-body small {
+  color: var(--fontcolor);
+}
+
+.card .card-footer {
+  color: var(--fontcolor);
+}
+

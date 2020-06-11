@@ -1,0 +1,55 @@
+
+
+:root {
+    // assigning root light theme
+    --background: #{$background-lg};
+    --background-inv: #{$background-dk};
+    --boxlayer-01:  #{$boxlayer-lg-01};
+    --boxlayer-02:  #{$boxlayer-lg-02};
+
+    --fontcolor: #{$fontcolor-lg};
+    --fontcolor-inv: #{$fontcolor-dk};
+    --accentcolor:  #{$accent-lg};
+    --shadowcolor:  #{$boxshade-lg};
+
+    --link:  #{$link-lg};
+    --linkhover: #{$link-lg-hover};
+    --linkactive:  #{$link-lg-active};
+
+    --info: #{$info};
+    --danger: #{$danger};
+    --warning: #{$warning};
+    --note: #{$note};
+    --success: #{$success};
+
+
+    --blur-main: #{$blur-main};
+}
+
+
+
+.DarkMode {
+    --background: #{$background-dk};
+    --background-inv: #{$background-lg};
+    --boxlayer-01: #{$boxlayer-dk-01};
+    --boxlayer-02: #{$boxlayer-dk-02};
+
+    --fontcolor: #{$fontcolor-dk};
+    --fontcolor-inv: #{$fontcolor-lg};
+    --accentcolor:  #{$accent-dk};
+    --shadowcolor:  #{$boxshade-dk};
+
+    --link: #{$link-dk};
+    --linkhover: #{$link-dk-hover};
+    --linkactive: #{$link-dk-active};
+
+    --info: #{$info};
+    --danger: #{$danger};
+    --warning: #{$warning};
+    --note: #{$note};
+    --success: #{$success};
+
+
+    --blur-main: #{$blur-main}
+}
+

@@ -1,0 +1,80 @@
+@import "abstracts/colors/colorstocks";
+
+
+$bmod-white:                 $white !default;
+$bmod-lightest:             $gray-00 !default;
+$bmod-lighter:               $gray-50 !default;
+$bmod-light:                 $gray-100 !default;
+$bmod-mid:                   $gray-200 !default;
+$bmod-dark:                  $gray-800 !default;
+$bmod-darker:                $gray-950 !default;
+$bmod-darkest:               $gray-000 !default;
+$bmod-black:                 $black !default;
+
+$background-lg:         $bmod-mid;
+$boxlayer-lg-00:        rgba(232, 232, 232,1);
+$boxlayer-lg-01:        rgba(108, 108, 108,1);
+$boxlayer-lg-02:        rgba(61, 61, 61,1);
+
+$fontcolor-lg:          $bmod-white;
+$fontcolor-lg-02:       $bmod-lightest;
+
+$background-dk:         $bmod-mid;
+$boxlayer-dk-00:        rgba(41, 41, 41,1);
+$boxlayer-dk-01:        rgba(109, 109, 109,1);
+$boxlayer-dk-02:        rgba(5, 5, 5,1);
+
+
+$fontcolor-dk:          $bmod-black;
+
+
+$boxshade-lg:           $gray-950;
+$boxshade-dk:           #f1f1f1;
+
+
+
+// === 2 assetUI-colors
+$prime:                 $purple !default;
+$prime-lg:              $purple-light !default;
+$prime-dk:              $purple-deep !default;
+$prime-electric:        $purple-electric !default;
+
+
+$second:                $pink !default;
+$second-dk:             $pink-light !default;
+$second-lg:             $pink-deep !default;
+$second-electric:       $pink-electric !default;
+
+$accent-dk:             $teal-light !default;
+$accent-lg:             $teal-deep !default;
+$accent-mute:           $teal !default;
+$accent-electric:       $teal-electric !default;
+
+$success:               $green-electric !default;
+$success-muted:         $green-deep !default;
+
+
+$info:               $cyan-electric !default;
+$info-muted:               $cyan-deep !default;
+
+$warning:               $orange-electric !default;
+$warning-muted:         $orange-deep !default;
+
+$note:                  $yellow-electric !default;
+$note-muted:            $yellow-deep !default;
+
+$danger:                $red-electric !default;
+$danger-muted:          $red-deep !default;
+
+
+$link-lg:               $prime-lg;
+$link-lg-hover:         $prime-electric;
+$link-lg-active:        $prime-electric;
+$link-lg-inactive:      $prime-dk;
+
+$link-dk:              $link-lg;
+$link-dk-hover:        $link-lg-hover;
+$link-dk-active:       $link-lg-active;
+
+
+
