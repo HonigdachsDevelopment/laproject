@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateClientsTable extends Migration
+class CreateChannelsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,17 +13,16 @@ class CreateClientsTable extends Migration
      */
     public function up()
     {
-        Schema::create('clients', function (Blueprint $table) {
+        Schema::create('channels', function (Blueprint $table) {
             $table->uuid('id');
-            $table->string('name', '32');
+            $table->string('name');
             $table->text('description')->nullable();
             $table->string('banner')->nullable();
             $table->string('image')->nullable();
-            $table->uuid('user_id')->references('id')->on('users');
+            $table->uuid('user_id');
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      *
@@ -31,9 +30,7 @@ class CreateClientsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('clients');
-        Schema::table('clients', function (Blueprint $table){
-            $table->dropForeign('clients_user_id_foreign');
-        });
+
+        Schema::dropIfExists('channels');
     }
 }
