@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Model\Question;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -82,9 +83,14 @@ class User extends Authenticatable
     }
     //
     public function teams(){
-        return $this->belongsToMany('App\Team');
+        return $this->belongsToMany(Team::class);
     }
 
+
+
+    public function questions(){
+        return $this->hasMany(Question::class);
+    }
     public function channel(){
         return $this->hasOne(Channel::class);
     }
@@ -92,6 +98,7 @@ class User extends Authenticatable
     public function account(){
         return $this->hasOne(Account::class);
     }
+
 
 
 
