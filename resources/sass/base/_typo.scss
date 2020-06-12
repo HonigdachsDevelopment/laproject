@@ -21,15 +21,16 @@ $roboto: 'roboto';
 $roboto-mono: 'Roboto-Mono';
 //$loveRosnita-sans: 'LoveRosnitaSans';
 //$loveRosnita: 'LoveRosnita';
-$akzident-outline: 'ag_buch_bqregular';
+$akzidenz-outline: 'ag_buch_bqregular';
 $akzidenz-bold: 'akzidenzgroteskbold';
 $akzident-regular: 'akzidenzgroteskroman';
-$akzident-light: 'akzidenzgrotesklight';
+$akzidenz-light: 'akzidenzgrotesklight';
 
 
 $font-family-base: $montserrat, sans-serif;
-$font-family-outline: $akzident-outline, sans-serif;
+$font-family-outline: $akzidenz-outline, sans-serif;
 $font-family-headline: $akzidenz-bold, sans-serif;
+$font-family-headline-small: $akzidenz-light, sans-serif;
 $font-family-mono: $roboto, sans-serif;
 $font-family-code: $roboto-mono, sans-serif;
 //$font-family-sign: $loveRosnita;
@@ -46,6 +47,7 @@ $font-stack-code: $roboto-mono, $roboto, 'Courier New', 'DejaVu Sans Mono', 'Bit
 $headings-margin-bottom: 4px;
 $headings-font-family: $font-family-headline;
 $headings-font-weight: 700;
+$headings-font-weight-sm: 600;
 $headings-line-height: auto;
 // TODO adjust css vars here
 $headings-color: $prime-dk;
@@ -56,6 +58,7 @@ $headings-color: $prime-dk;
 $font-size-base: 1rem;
 $font-size-lg: $font-size-base * 1.25;
 $font-size-s:  $font-size-base * .875;
+$font-size-sm:  $font-size-base * .725;
 $font-size-xs: $font-size-base * .625;
 
 $line-height-base: 1.6;
@@ -70,6 +73,9 @@ $line-height-xs: 1.35;
     font: $font-style, $font-line, $font-family;
 }
 @mixin fontHeadline($font-style: normal, $font-line: 125% / 1.4, $font-family: $font-family-headline) {
+    font: $font-style, $font-line, $font-family;
+}
+@mixin fontHeadlineSm($font-style: normal, $font-line: 10% / 1.2, $font-family: $font-family-base) {
     font: $font-style, $font-line, $font-family;
 }
 @mixin fontOutline($font-style: normal, $font-line: 125% / 1.4, $font-family: $font-family-outline) {
@@ -93,8 +99,8 @@ a {
     }
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, h4,
+.h1, .h2, .h3, .h4{
     margin-bottom: $headings-margin-bottom;
     font-family: $headings-font-family;
     font-weight: $headings-font-weight;
@@ -103,7 +109,17 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, h2, .h1, .h2{
-    font-family: "ag_buch_bqregular", sans-serif;
+    font-family: $font-family-outline;
     font-size: 3rem;
+
 }
 
+h5, h6, .h5, .h6{
+    @include fontHeadlineSm();
+    text-transform: uppercase;
+    font-size: $font-size-xs;
+    font-weight: $headings-font-weight;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: var(--link);
+}

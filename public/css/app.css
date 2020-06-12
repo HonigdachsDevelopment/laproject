@@ -4,7 +4,7 @@
   --boxlayer-00: #f9f9f9;
   --boxlayer-01: #d6d6d6;
   --boxlayer-02: #909090;
-  --bordercolor: #000000;
+  --bordercolor: #909090;
   --fontcolor: #000000;
   --fontcolor-two: #121212;
   --fontcolor-inv: #ffffff;
@@ -27,7 +27,7 @@
   --boxlayer-00: #1a1a1a;
   --boxlayer-01: #121212;
   --boxlayer-02: #1a1a1a;
-  --bordercolor: #909090;
+  --bordercolor: #202020;
   --fontcolor: #ffffff;
   --fontcolor-two: #ffffff;
   --fontcolor-inv: #000000;
@@ -65,14 +65,10 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6,
 .h1,
 .h2,
 .h3,
-.h4,
-.h5,
-.h6 {
+.h4 {
   margin-bottom: 4px;
   font-family: "akzidenzgroteskbold", sans-serif;
   font-weight: 700;
@@ -86,6 +82,19 @@ h2,
 .h2 {
   font-family: "ag_buch_bqregular", sans-serif;
   font-size: 3rem;
+}
+
+h5,
+h6,
+.h5,
+.h6 {
+  font: normal, 8.3333333333%, "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: var(--link);
 }
 
 /**
@@ -111,7 +120,7 @@ a:hover {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(214, 214, 214, 0.7);
+  background-color: var(--boxlayer-02);
   background-clip: border-box;
   border: 1px solid var(--bordercolor);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
@@ -119,6 +128,7 @@ a:hover {
           backface-visibility: hidden;
   -webkit-backdrop-filter: var(--blur-main);
           backdrop-filter: var(--blur-main);
+  margin-top: 0.75rem;
 }
 
 .card > hr {
@@ -133,8 +143,23 @@ a:hover {
   color: var(--fontcolor);
 }
 
+.card-body .card-info {
+  float: right;
+}
+
 .card-body small {
   color: var(--fontcolor);
+}
+
+.card-body .h5,
+.card-body .h6 {
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.card-body span {
+  font-size: 0.725rem;
+  margin-top: 0;
 }
 
 .card-title {
@@ -148,7 +173,7 @@ a:hover {
 .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  background-color: var(--boxlayer-00);
+  background-color: var(--boxlayer-01);
   color: var(--fontcolor);
   text-transform: uppercase;
   border-bottom: 1px solid var(--bordercolor);
@@ -165,7 +190,7 @@ a:hover {
 
 .card-footer {
   padding: 0.5rem 1rem;
-  background-color: var(--boxlayer-00);
+  background-color: var(--boxlayer-01);
   border-top: 1px solid var(--bordercolor);
 }
 
@@ -176,7 +201,7 @@ a:hover {
 }
 
 .card-group > .card {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.375rem;
 }
 
 @media (min-width: 576px) {
@@ -226,6 +251,8 @@ a:hover {
 }
 
 .navbar-nav .nav-link {
+  font-family: "akzidenzgroteskbold", sans-serif;
+  font-size: 120%;
   padding-right: 0;
   padding-left: 0;
 }

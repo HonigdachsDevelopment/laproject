@@ -7,12 +7,12 @@ $card-border-width:                 $border-width !default;
 $card-border-radius:                $border-radius !default;
 $card-border-color:                 var(--bordercolor);
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
-$card-cap-bg:                       var(--boxlayer-00);
+$card-cap-bg:                       var(--boxlayer-01);
 $card-cap-color:                    var(--fontcolor);
 $card-height:                       null !default;
 
 $card-color:                        var(--fontcolor);
-$card-bg:                           transparentize($boxlayer-lg-01, .3);
+$card-bg:                           var(--boxlayer-02);
 
 $card-img-overlay-padding:          1.25rem !default;
 
@@ -40,10 +40,9 @@ $card-columns-margin:               $card-spacer-y !default;
     border: $card-border-width solid $card-border-color;
     @include border-radius($card-border-radius);
     @include card(4);
-
     backface-visibility: hidden;
     backdrop-filter: var(--blur-main);
-
+    margin-top: $grid-gutter-width;
     > hr {
         margin-right: 0;
         margin-left: 0;
@@ -72,8 +71,20 @@ $card-columns-margin:               $card-spacer-y !default;
     min-height: 1px;
     padding: $card-spacer-x;
     color: $card-color;
+    .card-info{
+        float: right;
+    }
     small {
         color: var(--fontcolor);
+
+    }
+    .h5, .h6{
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+    span{
+        font-size: $font-size-sm;
+        margin-top: 0;
     }
 }
 
