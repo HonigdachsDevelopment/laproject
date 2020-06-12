@@ -40,11 +40,11 @@ class AuthServiceProvider extends ServiceProvider
         });
 
         Gate::define('publish-media-content', function ($user){
-            return $user->hasRole(['admin', 'manager', 'author']);
+            return $user->hasRole(['admin', 'manager', 'author', 'member']);
         });
 
-        Gate::define('read-user-channel', function ($user){
-            return $user->hasRole(['admin', 'manager', 'author', 'member']);
+        Gate::define('read-media-content', function ($user){
+            return $user->hasRole(['admin', 'manager', 'author', 'member', 'user']);
         });
 
         // admin lower level permissions

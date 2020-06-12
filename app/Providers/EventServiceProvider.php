@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 // listener for Creating a user channel
+use App\Listeners\Users\CreateUserAccount;
 use App\Listeners\Users\CreateUserChannel;
 
 use Illuminate\Auth\Events\Registered;
@@ -22,6 +23,7 @@ class EventServiceProvider extends ServiceProvider
             SendEmailVerificationNotification::class,
             // register class w channel
             CreateUserChannel::class,
+            CreateUserAccount::class,
         ],
     ];
 

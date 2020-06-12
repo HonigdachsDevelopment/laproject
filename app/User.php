@@ -6,11 +6,11 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Str;
-
+use App\Model\Channel;
+use App\Model\Account;
 class User extends Authenticatable
 {
     use Notifiable;
-
 
 
     public $incrementing = FALSE;
@@ -78,5 +78,8 @@ class User extends Authenticatable
 
     public function channel(){
         return $this->hasOne(Channel::class);
+    }
+    public function account(){
+        return $this->hasOne(Account::class);
     }
 }

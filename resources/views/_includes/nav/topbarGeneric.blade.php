@@ -43,7 +43,7 @@
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
 
                             @auth
-                                <a class="dropdown-item" href="{{ route('channel.show', auth()->user()->channel->id) }}">myChannel</a>
+                                <a class="dropdown-item" href="{{ route('user.channel.show', auth()->user()->channel->id) }}">myChannel</a>
                             @endauth
 
                             <a class="dropdown-item" href="{{ route('logout') }}"

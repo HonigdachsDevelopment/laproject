@@ -1,12 +1,13 @@
 <?php
 
-    namespace App\Listeners\Users;
+namespace App\Listeners\Users;
+
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use App\Model\Channel;
+use App\Model\Account;
 use App\User;
 
-class CreateUserChannel
+class CreateUserAccount
 {
     /**
      * Handle the event.
@@ -21,7 +22,7 @@ class CreateUserChannel
          * triggers the create event from our RegistersController which
          * catches all create events related to user registration
          */
-        $event->user->channel()->create([
+        $event->user->account()->create([
             'id' => $event->user->id,
             'name' => $event->user->name
         ]);

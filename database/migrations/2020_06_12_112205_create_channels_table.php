@@ -23,6 +23,7 @@ class CreateChannelsTable extends Migration
             $table->timestamps();
         });
     }
+
     /**
      * Reverse the migrations.
      *
@@ -30,7 +31,6 @@ class CreateChannelsTable extends Migration
      */
     public function down()
     {
-
         Schema::dropIfExists('channels');
     }
 }

@@ -20,8 +20,10 @@
     Route::get('/dashboard', 'ContentInternController@dashboard')->name('dashboard');
     Route::get('/ui/grid', 'ContentInternController@uigrid')->name('uigrid');
 
-
-    Route::resource('channel', 'ChannelController');
+    Route::namespace('User')->prefix('user')->name('user.')->group(function () {
+        Route::resource('/channel', 'ChannelController');
+        Route::resource('/account', 'AccountController');
+    });
 
 // ADMIN ROUTES HERE
     Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware('can:manage-users')->group(function () {
