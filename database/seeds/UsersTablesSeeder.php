@@ -24,11 +24,11 @@ class UsersTablesSeeder extends Seeder
         DB::table('role_user')->truncate();
 
         // assigning  the roles
-        $adminRole = \App\Role::where('name', 'admin')->first();
-        $managerRole = \App\Role::where('name', 'manager')->first();
-        $authorRole = \App\Role::where('name', 'author')->first();
-        $memberRole = \App\Role::where('name', 'member')->first();
-        $userRole = \App\Role::where('name', 'user')->first();
+        $adminRole = Role::where('name', 'admin')->first();
+        $managerRole = Role::where('name', 'manager')->first();
+        $authorRole = Role::where('name', 'author')->first();
+        $memberRole = Role::where('name', 'member')->first();
+        $userRole =  Role::where('name', 'user')->first();
 
         // storing the user roles
         $admin = User::create([

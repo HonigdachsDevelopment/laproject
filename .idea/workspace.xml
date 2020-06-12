@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b57132-b3de-4ad5-bf03-4662290526e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/User/AccountController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Listeners/Users/CreateUserAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Model/Account.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Model/Channel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/AccountFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/ChannelFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_12_112246_create_accounts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/channel/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/channel/showSou.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab756a0f-328a-4787-97ee-039cda7ba7b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab756a0f-328a-4787-97ee-039cda7ba7b5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AccountsTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/ChannelsTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Channel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChannelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/ChannelController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Listeners/Users/CreateUserChannel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Listeners/Users/CreateUserChannel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_06_06_014937_create_channels_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_06_12_112205_create_channels_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_includes/nav/topbarGeneric.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_includes/nav/topbarGeneric.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/channel/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/account/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/channel/showSou.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/account/showSou.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTablesSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTablesSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
@@ -182,11 +164,11 @@
       <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\LaravelProjects\laproject\database\seeds" />
+      <recent name="C:\xampp\htdocs\LaravelProjects\laproject\database\seeds\_late" />
       <recent name="C:\xampp\htdocs\LaravelProjects\laproject\resources\views\user" />
       <recent name="C:\xampp\htdocs\LaravelProjects\laproject\app\Http\Controllers\User" />
       <recent name="C:\xampp\htdocs\LaravelProjects\laproject\database\_migUUiDbranch" />
-      <recent name="C:\xampp\htdocs\LaravelProjects\laproject\database\migrations" />
-      <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts\akzidenz-Grotesk-Family" />
     </key>
   </component>
   <component name="RunManager">
@@ -208,7 +190,7 @@
       <workItem from="1591907665294" duration="2445000" />
       <workItem from="1591911323712" duration="2318000" />
       <workItem from="1591913786335" duration="13508000" />
-      <workItem from="1591960290361" duration="4031000" />
+      <workItem from="1591960290361" duration="6298000" />
     </task>
     <servers />
   </component>
@@ -271,6 +253,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="875" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591911891827" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1591965709125">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591965709125" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591916005073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
