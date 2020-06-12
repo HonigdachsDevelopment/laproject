@@ -9,7 +9,7 @@ $depth-item: 2;
 
 
 
-$border-radius: 3px;
+$border-radius: 1px;
 $border-width: 1px;
 
 
@@ -54,3 +54,8 @@ $container-max-widths: (
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
 
+// Navs
+
+$nav-link-padding-y:                .5rem !default;
+$nav-link-padding-x:                1rem !default;
+$nav-link-disabled-color:           $gray-600 !default;

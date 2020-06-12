@@ -538,7 +538,6 @@ pre code {
 .col-xl-3,
 .col-lg-12,
 .col-lg-6,
-.col-lg-4,
 .col-lg-3,
 .col-md-12,
 .col-md-8,
@@ -603,11 +602,6 @@ pre code {
   .col-lg-3 {
     flex: 0 0 25%;
     max-width: 25%;
-  }
-
-  .col-lg-4 {
-    flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
   }
 
   .col-lg-6 {
@@ -1053,11 +1047,33 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0;
+}
+
 .btn-sm {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-block + .btn-block {
+  margin-top: 0.5rem;
+}
+
+input[type=submit].btn-block,
+input[type=reset].btn-block,
+input[type=button].btn-block {
+  width: 100%;
 }
 
 .collapse:not(.show) {
@@ -1604,10 +1620,6 @@ button.bg-danger:focus {
 
 .py-2 {
   padding-bottom: 0.5rem !important;
-}
-
-.p-4 {
-  padding: 1.5rem !important;
 }
 
 

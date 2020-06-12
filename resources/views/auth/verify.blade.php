@@ -2,7 +2,7 @@
 
 @section('content')
     <x-formonly-wrapper>
-                <div class="card-header">{{ __('Verify Your Email Address') }}</div>
+                <div class="card-header h2">{{ __('Verify Your Email Address') }}</div>
 
                 <div class="card-body">
                     @if (session('resent'))

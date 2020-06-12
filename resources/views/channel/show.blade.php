@@ -2,8 +2,8 @@
 @section('content')
 
 <x-formonly-wrapper>
-        <div class="card-header">
-            {{ $channel->name }}
+        <div class="card-header h2">
+           <div class="h2"> {{ $channel->name }}</div>
         </div>
         <div class="card-body">
 

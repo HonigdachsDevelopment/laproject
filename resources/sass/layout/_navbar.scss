@@ -1,20 +1,66 @@
+// Base class
+//
+// Kickstart any navigation component with a set of style resets. Works with
+// `<nav>`s, `<ul>`s or `<ol>`s.
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
 
 .navbar {
+    background-color: var(--boxlayer-00);
     @include card(4);
-    backface-visibility: hidden;
-    backdrop-filter: var(--blur-main);
-
-    button {
-        color: #000;
-    }
 }
 
-.navbar, .navbar-brand, .nav-link {
-
-    background-color:var(--boxlayer-00);
+.nav-link {
+    display: block;
+    padding: $nav-link-padding-y $nav-link-padding-x;
+    @include hover-focus();
+    text-decoration: none;
     color: var(--link);
-
-    &:hover {
-        color: var(--linkhover);
+    // Disabled state lightens text
+    &.disabled {
+        color: $nav-link-disabled-color;
+        pointer-events: none;
+        cursor: default;
     }
 }
+
+.navbar-nav {
+
+    @include card(4);
+    // Navbar nav
+    //
+    // Custom navbar navigation (doesn't require `.nav`, but does make use of `.nav-link`).
+    display: flex;
+    flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+    .nav-link {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .dropdown-menu {
+        position: static;
+        float: none;
+        background-color: var(--boxlayer-00);
+
+        .dropdown-item {
+            color: var(--fontcolor-two);
+
+            &:hover {
+                background-color: var(--boxlayer-00);
+                color: var(--link);
+
+            }
+        }
+    }
+}
+

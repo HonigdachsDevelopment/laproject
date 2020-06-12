@@ -4,12 +4,27 @@
     <list default="true" id="73b57132-b3de-4ad5-bf03-4662290526e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_color-ci.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_color-ci.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/base/_typo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/base/_typo.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/layout/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/layout/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/layout/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/layout/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/channel/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/channel/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/col-threetwo-lastchild.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/col-threetwo-lastchild.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/col-threetwo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/col-threetwo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/col-twoone.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/col-twoone.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/form-container.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/form-container.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/main-wrapper.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/main-wrapper.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/row.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/row.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +202,7 @@
       <updated>1591907638726</updated>
       <workItem from="1591907665294" duration="2445000" />
       <workItem from="1591911323712" duration="2318000" />
-      <workItem from="1591913786335" duration="4010000" />
+      <workItem from="1591913786335" duration="9976000" />
     </task>
     <servers />
   </component>

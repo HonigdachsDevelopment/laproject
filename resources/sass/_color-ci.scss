@@ -24,7 +24,7 @@ $background-dk:         $bmod-mid;
 $boxlayer-dk-00:        $bmod-darker;
 $boxlayer-dk-01:        $bmod-darkest;
 $boxlayer-dk-02:        $bmod-darker;
-$border-color-dk:        $bmod-white;
+$border-color-dk:        $bmod-light;
 
 $fontcolor-dk:          $bmod-white;
 $fontcolor-dk-02:          $bmod-white;
@@ -32,7 +32,6 @@ $fontcolor-dk-02:          $bmod-white;
 
 $boxshade-lg:           $gray-950;
 $boxshade-dk:           #f1f1f1;
-
 
 
 // === 2 assetUI-colors
@@ -69,10 +68,10 @@ $danger:                $red-electric !default;
 $danger-muted:          $red-deep !default;
 
 
-$link-lg:               $prime-lg;
+$link-lg:               $prime-dk;
 $link-lg-hover:         $prime-electric;
 $link-lg-active:        $prime-electric;
-$link-lg-inactive:      $prime-dk;
+$link-lg-inactive:      $prime-lg;
 
 $link-dk:              $link-lg;
 $link-dk-hover:        $link-lg-hover;

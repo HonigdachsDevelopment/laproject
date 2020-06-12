@@ -48,7 +48,7 @@ $headings-font-family: $font-family-headline;
 $headings-font-weight: 700;
 $headings-line-height: auto;
 // TODO adjust css vars here
-$headings-color: $prime;
+$headings-color: $prime-dk;
 
 
 
@@ -70,6 +70,9 @@ $line-height-xs: 1.35;
     font: $font-style, $font-line, $font-family;
 }
 @mixin fontHeadline($font-style: normal, $font-line: 125% / 1.4, $font-family: $font-family-headline) {
+    font: $font-style, $font-line, $font-family;
+}
+@mixin fontOutline($font-style: normal, $font-line: 125% / 1.4, $font-family: $font-family-outline) {
     font: $font-style, $font-line, $font-family;
 }
 
@@ -100,5 +103,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, h2, .h1, .h2{
-    font-size: 2rem;
+    font-family: "ag_buch_bqregular", sans-serif;
+    font-size: 3rem;
 }
+

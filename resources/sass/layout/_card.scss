@@ -8,7 +8,7 @@ $card-border-radius:                $border-radius !default;
 $card-border-color:                 var(--bordercolor);
 $card-inner-border-radius:          subtract($card-border-radius, $card-border-width) !default;
 $card-cap-bg:                       var(--boxlayer-00);
-$card-cap-color:                    var(--accent);
+$card-cap-color:                    var(--fontcolor);
 $card-height:                       null !default;
 
 $card-color:                        var(--fontcolor);
@@ -112,6 +112,11 @@ $card-columns-margin:               $card-spacer-y !default;
     color: $card-cap-color;
     text-transform: uppercase;
     border-bottom: $card-border-width solid $card-border-color;
+    + h1, h2, .h1, .h2{
+        @include fontOutline();
+        font-size: 3.25rem;
+        color: var(--fontcolor);
+    }
 
     &:first-child {
         @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
