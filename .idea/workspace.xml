@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b57132-b3de-4ad5-bf03-4662290526e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/laproject-uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Team.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_12_041955_create_accounts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_12_054400_create_clients_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_12_054558_create_projects_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_12_055028_create_teams_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_12_055448_create_team_user_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab756a0f-328a-4787-97ee-039cda7ba7b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab756a0f-328a-4787-97ee-039cda7ba7b5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lasocial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/2020_05_19_192914_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_19_192914_create_roles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/2020_05_19_194138_create_role_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_19_194138_create_role_user_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/2020_05_23_185944_create_foreign_keys_for_role_user_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/2020_06_06_014937_create_channels_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_06_06_014937_create_channels_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/projectsbeta_channels.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/projectsbeta_migrations.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/projectsbeta_role_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/projectsbeta_roles.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/_migUUiDbranch/projectsbeta_users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,14 +173,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/database" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\LaravelProjects\laproject\database" />
       <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\views\components" />
       <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts\akzidenz-Grotesk-Family\akzidenz-grotesk-bold" />
       <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts\agbuch-boldoutline" />
@@ -184,7 +212,7 @@
       <workItem from="1591907665294" duration="2445000" />
       <workItem from="1591911323712" duration="2318000" />
       <workItem from="1591913786335" duration="14346000" />
-      <workItem from="1591934477086" duration="9342000" />
+      <workItem from="1591934477086" duration="9043000" />
     </task>
     <servers />
   </component>
