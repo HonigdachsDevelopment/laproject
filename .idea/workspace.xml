@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b57132-b3de-4ad5-bf03-4662290526e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/laproject-uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/Users/CreateUserAccount.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_12_073528_create_client_project_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/clients/cards.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/clients/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/clients/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab756a0f-328a-4787-97ee-039cda7ba7b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab756a0f-328a-4787-97ee-039cda7ba7b5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ClientsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_19_194138_create_role_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_19_194138_create_role_user_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_includes/nav/topbarGeneric.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_includes/nav/topbarGeneric.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,25 +158,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/database" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\LaravelProjects\laproject\app\Http\Controllers\Admin" />
+      <recent name="C:\xampp\htdocs\LaravelProjects\laproject\app\Http\Controllers\Clients" />
+      <recent name="C:\xampp\htdocs\LaravelProjects\laproject\database\migrations" />
+      <recent name="C:\xampp\htdocs\LaravelProjects\laproject\database\_migUUiDbranch" />
+      <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts\akzidenz-Grotesk-Family" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\LaravelProjects\laproject\resources\views\admin" />
       <recent name="C:\xampp\htdocs\LaravelProjects\laproject\database" />
       <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\views\components" />
       <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts\akzidenz-Grotesk-Family\akzidenz-grotesk-bold" />
       <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts\agbuch-boldoutline" />
-      <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\LaravelProjects\laproject\database\migrations" />
-      <recent name="C:\xampp\htdocs\LaravelProjects\laproject\database\_migUUiDbranch" />
-      <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts\akzidenz-Grotesk-Family" />
-      <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts" />
-      <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\database\_migUUiDbranch" />
     </key>
   </component>
   <component name="RunManager">
@@ -185,6 +199,7 @@
       <workItem from="1591911323712" duration="2318000" />
       <workItem from="1591913786335" duration="14346000" />
       <workItem from="1591934477086" duration="9342000" />
+      <workItem from="1591944383299" duration="3560000" />
     </task>
     <servers />
   </component>
@@ -207,10 +222,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="449" key="#com.intellij.ide.macro.MacrosDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591913036442" />
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591913987148">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591945224150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591913987148" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591945224150" />
+    <state x="601" y="371" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591945389476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="371" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591945389476" />
     <state x="448" y="381" width="665" height="659" key="EditFileWatcherDialog" timestamp="1591913904443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

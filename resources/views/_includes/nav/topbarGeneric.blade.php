@@ -54,6 +54,7 @@
 
                             @can('manage-users')
                                 <a href="{{ route('admin.users.index')}}" class="dropdown-item">Userlist </a>
+                                <a href="{{ route('admin.clients.index')}}" class="dropdown-item">Clientlist </a>
                             @endcan
 
 

@@ -27,4 +27,5 @@
     Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware('can:manage-users')->group(function () {
         // Grouped Admin UsersController
         Route::resource('/users', 'UsersController', ['except' => ['show', 'create', 'store']]);
+        Route::resource('/clients', 'ClientsController', ['except' => ['show', 'create', 'store']]);
     });
