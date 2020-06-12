@@ -7,6 +7,10 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Str;
 
+
+use App\Account;
+use App\Channel;
+
 class User extends Authenticatable
 {
     use Notifiable;
@@ -55,11 +59,7 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    //
-    public function roles(){
 
-        return $this->belongsToMany('App\Role');
-    }
 
     public function hasAnyRoles($roles){
         if($this->roles()->whereIn('name', $roles)->first()){
@@ -76,7 +76,23 @@ class User extends Authenticatable
         return false;
     }
 
+    //
+    public function roles(){
+        return $this->belongsToMany('App\Role');
+    }
+    //
+    public function teams(){
+        return $this->belongsToMany('App\Team');
+    }
+
     public function channel(){
         return $this->hasOne(Channel::class);
     }
+
+    public function account(){
+        return $this->hasOne(Account::class);
+    }
+
+
+
 }
