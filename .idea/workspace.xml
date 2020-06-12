@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b57132-b3de-4ad5-bf03-4662290526e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Listeners/Users/CreateUserAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_12_073528_create_client_project_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/clients/cards.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/clients/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/clients/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ab756a0f-328a-4787-97ee-039cda7ba7b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ab756a0f-328a-4787-97ee-039cda7ba7b5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/Question.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/ClientFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/QuestionFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_12_075823_create_questions_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ClientsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_19_194138_create_role_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_19_194138_create_role_user_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_includes/nav/topbarGeneric.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_includes/nav/topbarGeneric.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,11 +155,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\LaravelProjects\laproject\app\Model" />
       <recent name="C:\xampp\htdocs\LaravelProjects\laproject\app\Http\Controllers\Admin" />
       <recent name="C:\xampp\htdocs\LaravelProjects\laproject\app\Http\Controllers\Clients" />
       <recent name="C:\xampp\htdocs\LaravelProjects\laproject\database\migrations" />
       <recent name="C:\xampp\htdocs\LaravelProjects\laproject\database\_migUUiDbranch" />
-      <recent name="C:\xampp\htdocs\LaravelProjects\lasocial\resources\assets\fonts\akzidenz-Grotesk-Family" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\LaravelProjects\laproject\resources\views\admin" />
@@ -199,7 +189,7 @@
       <workItem from="1591911323712" duration="2318000" />
       <workItem from="1591913786335" duration="14346000" />
       <workItem from="1591934477086" duration="9342000" />
-      <workItem from="1591944383299" duration="3560000" />
+      <workItem from="1591944383299" duration="4515000" />
     </task>
     <servers />
   </component>
