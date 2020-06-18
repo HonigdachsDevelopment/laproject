@@ -521,6 +521,11 @@ class ComposerStaticInitf6ae6e0e88bfb5405fece82a2cf09bdf
         'App\\Model' => __DIR__ . '/../..' . '/app/Model.php',
         'App\\Model\\Account' => __DIR__ . '/../..' . '/app/Model/Account.php',
         'App\\Model\\Channel' => __DIR__ . '/../..' . '/app/Model/Channel.php',
+<<<<<<< HEAD
+=======
+        'App\\Model\\User\\Answer' => __DIR__ . '/../..' . '/app/Model/User/Answer.php',
+        'App\\Model\\User\\Question' => __DIR__ . '/../..' . '/app/Model/User/Question.php',
+>>>>>>> parent of aa94bef5... category -mrcf
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
